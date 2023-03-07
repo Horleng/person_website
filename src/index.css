@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Lato&family=Noto+Sans:wght@500&family=Rampart+One&family=Roboto:wght@500&family=Shantell+Sans:wght@500&family=Sono:wght@500&family=Tilt+Warp&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  *{
+    @apply font-Noto_Sans text-base dark:text-gray-300 text-gray-400 m-0 p-0
+  }
+  body{
+    @apply dark:bg-gray-800 bg-gray-200
+  }
+}
